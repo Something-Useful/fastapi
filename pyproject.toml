@@ -54,7 +54,7 @@ Changelog = "https://fastapi.tiangolo.com/release-notes/"
 [project.optional-dependencies]
 
 standard = [
-    "fastapi-cli[standard] >=0.0.5",
+    "fastapi-cli @ https://github.com/ilyakamens/fastapi-cli",
     # For the test client
     "httpx >=0.23.0",
     # For templates
@@ -73,7 +73,7 @@ standard = [
 ]
 
 all = [
-    "fastapi-cli[standard] >=0.0.5",
+    "fastapi-cli @ https://github.com/ilyakamens/fastapi-cli",
     # # For the test client
     "httpx >=0.23.0",
     # For templates
